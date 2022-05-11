@@ -1,0 +1,99 @@
+:root{
+--Verydarkblue1: hsl(217, 54%, 11%);
+--Verydarkblue2: hsl(216, 50%, 16%);
+--Verydarkblue: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Cyan: hsl(178, 100%, 50%);
+--SoftBlue: hsl(215, 51%, 70%);
+}
+
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: var(--Verydarkblue1);
+ font-family: 'Outfit', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 45px;
+}
+.card{
+ /* padding-top: 50px; */
+ background-color: var(--Verydarkblue2);
+ display: flex;
+ flex-direction: column;
+ height: 550px;
+ width: 350px;
+ align-items: flex-start;
+ padding-left: 20px;
+ justify-content: space-evenly;
+ border-radius: 15px;
+ box-shadow: -3px 1px 37px 45px rgb(2, 20, 48);
+}
+.nft{
+ padding-left: 3px;
+ cursor: pointer;
+}
+.nft img{
+ border-radius: 7px;
+}
+.equilibrium{
+ font-weight: 400;
+ color: #fff;
+ transition: 00.5s;
+}
+.equilibrium:hover {
+ color: var(--Cyan);
+}
+
+
+.our{
+ color: rgb(149, 146, 146);
+}
+.ethntime{
+ display: flex;
+}
+.days{
+ margin-left: 128px;
+}
+.span1{
+ padding-left : 4px;
+ color: var(--Cyan);
+}
+.span2{
+ padding-left: 2px;
+ color: var(--SoftBlue);
+}
+.eth img{
+ padding-top: 1px;
+ border: 2px white;
+}
+.days img{
+ padding-top: 1px;
+}
+.avatar{
+ display: flex;
+}
+.jules{
+padding-top:4px;
+padding-left:4px;
+}
+.jules span{
+ color: white;
+ transition: 0.5s;
+ cursor: pointer;
+}
+.jules span:hover{
+ color: var(--Cyan);
+}
+
+.underline{
+ text-decoration: underline;
+}
+
+
+ 
